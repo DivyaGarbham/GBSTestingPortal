@@ -1,0 +1,277 @@
+ #header h3 {
+    text-align: center;
+    width:60%;
+    margin-top: 3.7%;
+    font-size:20px;
+    margin-left:78%; 
+}
+
+#header #textSearch {
+    box-sizing: border-box;
+    border: 2px solid rgb(153,153,153);
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    background-color: #D3D3D3;
+    transition: width 0.4s ease-in-out;
+    vertical-align: middle;
+    margin-left:67%;
+    margin-top:2%;
+    
+}
+
+#header a:hover,#header a:active,#header a:focus,#header a:visited,#header .open >a,#menu .dropdown-menu > li > a{
+	background-color:transparent;
+	
+}
+
+#header .navbar-nav > li .dropdown-menu{
+	background-color:#737474;
+	margin-top:-14%;
+	margin-left:-91%;
+	border-bottom:1px solid white;
+}
+
+#header .dropdown-menu > li > a,#menu .dropdown-menu > li > a{
+	color:white;
+}
+
+#menu .navbar-nav > li .dropdown-menu{
+	background-color:#737474;
+	box-shadow:none;
+	height:80px;
+	width:14px;
+}
+
+#footer{
+    padding: 1em;
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    clear: left;
+    text-align: center;
+    border: 2px solid #D3D3D3;
+    width: 43%;
+    margin-left: 28%;
+}
+
+.myContainer{
+    height:50px;
+    background-color:#D3D3D3;
+    width: 79%;
+    border: 1px solid gray;
+    margin-left:9%;
+}
+
+.heading{
+    display:inline-block;
+}
+
+.box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em;
+    margin-top:-18%
+}
+
+#myProgress {
+    position: relative;
+    height: 7px;
+    background-color: #ddd;
+    -moz-border-radius: 6px; 
+    border-radius: 6px; 
+}
+
+#myBar {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(86,86,86);
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+#logo {
+margin-left:28px;
+margin-top: 3%;	
+} 
+
+#progressText {
+    color:rgb(81,82,82);
+    margin-top:5%;
+    text-align:center;
+    line-height:3;
+}
+
+#progressReport {
+font-weight: bold;
+margin-top: 106%;
+left: 9px;
+font-size: 9px;
+word-spacing: -1px;
+}
+
+.subpagelinks {
+color: #565656;
+display:block;
+}
+
+#yourProgress{
+line-height: 2.5;
+font-size: 13px;
+}
+
+#course1Image{
+font-weight:bold;
+color: rgb(86,86,86);
+}
+
+#course2Image{
+font-weight:bold;
+}
+
+.portalTabs{
+	 background:white;
+	 height: 76px;
+	 overflow: hidden;	
+	 margin-left: 5%;
+	 float:left;
+	 margin-bottom:2%;	
+}
+
+.portalTabs ul li a:hover,.portalTabs ul li a:focus,.portalTabs ul li a:active,.portalTabs ul li a:visited,.portalTabs .nav .open >a{
+	background-color:transparent;
+}
+
+@media (min-width: 768px) {
+.portalTabs ul li a {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #000000;
+}
+}
+.col-md-2{
+	height: 100%;	
+}
+.col-md-3{
+	height: 96%;
+	border-style: solid;
+	border-color: #000000;
+	border-width:1px;
+	width:31.33%;
+}
+.col-md-7{
+	height: 100%;	
+}
+.col-md-9{
+	height: 100%;	
+}
+.col-md-12{
+	height: 98%;
+	border-style: solid;
+	border-color: #000000;
+	border-width:1px;
+}
+
+#top-row{
+height: 160px;
+}
+#bottom-row{
+height: 320px;
+}
+#inner-row{
+height: 160px;
+}
+.colspace{
+margin-right:2%;
+margin-bottom:2%;
+}
+.underline{
+border-bottom:double;
+border-bottom-color:#FAF9F7;
+}
+.active{
+border-bottom:solid;
+}
+#latestnews,#progress{
+border-style: solid;
+border-color: #000000;
+border-width:1px;
+}
+#ideapool{
+border-style: solid;
+border-color: #000000;
+border-width:1px;
+text-align:center;
+}
+#idea{
+	font-size: 11px;
+	line-height: 2;
+}
+#flashEvents{
+border-style: solid;
+border-color: #000000;
+border-width:1px;
+width:57%;
+margin-right:2%;
+}
+#mostViewed{
+margin-bottom:8%;
+margin-left:4%
+}
+#helpSection{
+height:92%;
+margin-left:4%;
+}
+#successStories{
+border-style: solid;
+border-color: #000000;
+border-width:1px;
+height:160px;
+margin-left:1.3%;
+
+}
+#testimonials{
+border-style: solid;
+border-color: #000000;
+border-width:1px;
+height:160px;
+width:76%;
+}
+#career >a,#presales >a,#assets >a,#practices >a,#contacts >a,#education >a{
+	color:white;
+	float:left;
+	margin-top:5%;
+	margin:left:22%;	
+}
+#career,#presales,#assets,#practices,#contacts,#education{
+	background-color:#737474;
+	height:33%;
+	width:100%;
+	position:absolute;
+	left:0;	
+}
+#educationLinks{
+	position:absolute;
+	margin-top:25%;
+}
+#viewMore{
+	position:absolute;
+	margin-top:61%;
+	margin-left:58%;
+}
+.infoIcon >img{
+	height:18px;
+	width:20px;
+	float:right;
+	margin-top:5%;
+	
+}
+.infoIcon + .tooltip > .tooltip-inner {
+   background-color: #F5F3F2;
+    color: black;
+    border: 1px solid #F5F3F2;    
+    font-size: 15px;
+    height:200px;
+    width:200px;
+} 
+ 
